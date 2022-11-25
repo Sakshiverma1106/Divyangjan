@@ -1,0 +1,18 @@
+.container {
+   width: 100vw;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+
+.input {
+   padding: 5px;
+   width: 30%;
+}
+
+.input:focus, .input:active {
+   outline: none;
+}

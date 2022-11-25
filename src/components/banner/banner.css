@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&display=swap');
+
+.img1 {
+   margin-top: 50px;
+   height: 300px;
+   width: 285px;
+   border-radius: 20px;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+
+
+.banner {
+
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.thougth {
+   margin-left: 29px;
+   font-style: italic;
+   font-size: 16px;
+   color: gray;
+   width: 60%;
+}
+
+.navigationBtn {
+   text-decoration: none;
+   background-color: #2c90c6;
+   color: black;
+   font-weight: 700;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   width: fit-content;
+   cursor: pointer;
+   margin-left: 20px;
+   box-shadow: 2px 2px 2px rgb(86, 6, 235);
+}
+
+.btns {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.left {
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+}
+
+.right {
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+.navigationBtn:active {
+   background-color: #000;
+   color: white;
+   box-shadow: 2px 2px 2px rgb(86, 6, 235);
+}
+
+.container {
+
+   width: 60%;
+   height: 80vh;
+   position: relative;
+   left: 0;
+   top: 40px;
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   justify-content: center;
+}
+
+.container2 {
+   width: 40%;
+   height: 80vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+p {
+   float: left;
+   line-height: 50px;
+   font-size: 200%;
+   color: #888;
+}
+
+.scroller {
+   height: 50px;
+   line-height: 50px;
+   float: left;
+   margin-left: 5px;
+   overflow: hidden;
+}
+
+.scroller span {
+   display: block;
+   font-weight: 700;
+   font-size: 200%;
+   font-family: 'Merriweather', serif;
+
+   color: white;
+
+}
+
+.scroller .inner {
+   margin-left: 30px;
+   -webkit-animation: scroll 10s 1 ease-out;
+   -moz-animation: scroll 10s 1 ease-out;
+   animation: scroll 10s 1 ease-out;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+   animation-iteration-count: infinite;
+}
+
+
+.blue {
+   -webkit-animation: color 0.25s 1 linear;
+   -moz-animation: color 0.25s 1 linear;
+   animation: color 0.25s 1 linear;
+
+   -webkit-animation-delay: 8s;
+   -moz-animation-delay: 8s;
+   animation-delay: 8s;
+
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+
+}
+
+
+.blueb {
+   -webkit-animation: color 0.25s 1 linear;
+   -moz-animation: color 0.25s 1 linear;
+   animation: color 0.25s 1 linear;
+
+   -webkit-animation-delay: 8.25s;
+   -moz-animation-delay: 8.25s;
+   animation-delay: 8.25s;
+
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes color {
+   0% {
+      color: #000;
+   }
+
+   100% {
+      color: #2c90c6;
+   }
+}
+
+@-moz-keyframes color {
+   0% {
+      color: #000;
+   }
+
+   100% {
+      color: #2c90c6;
+   }
+}
+
+@keyframes color {
+   0% {
+      color: #000;
+   }
+
+   100% {
+      color: #2c90c6;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes scroll {
+   11% {
+      margin-top: 0px;
+   }
+
+   22% {
+      margin-top: 0px;
+   }
+
+   33% {
+      margin-top: -50px;
+   }
+
+   44% {
+      margin-top: -50px;
+   }
+
+   55% {
+      margin-top: -100px;
+   }
+
+   66% {
+      margin-top: -100px;
+   }
+
+   77% {
+      margin-top: -150px;
+   }
+
+   88% {
+      margin-top: -150px;
+   }
+
+   100% {
+      margin-top: -150px;
+   }
+}
+
+@-moz-keyframes scroll {
+   11% {
+      margin-top: 0px;
+   }
+
+   22% {
+      margin-top: 0px;
+   }
+
+   33% {
+      margin-top: -50px;
+   }
+
+   44% {
+      margin-top: -50px;
+   }
+
+   55% {
+      margin-top: -100px;
+   }
+
+   66% {
+      margin-top: -100px;
+   }
+
+   77% {
+      margin-top: -150px;
+   }
+
+   88% {
+      margin-top: -150px;
+   }
+
+   100% {
+      margin-top: -150px;
+   }
+}
+
+@keyframes scroll {
+   11% {
+      margin-top: 0px;
+   }
+
+   22% {
+      margin-top: 0px;
+   }
+
+   33% {
+      margin-top: -50px;
+   }
+
+   44% {
+      margin-top: -50px;
+   }
+
+   55% {
+      margin-top: -100px;
+   }
+
+   66% {
+      margin-top: -100px;
+   }
+
+   77% {
+      margin-top: -150px;
+   }
+
+   88% {
+      margin-top: -150px;
+   }
+
+   100% {
+      margin-top: -150px;
+   }
+}

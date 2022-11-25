@@ -1,0 +1,49 @@
+.image {
+   height: 300px;
+   width: 400px;
+   background-size: 100% 100%;
+   margin: 10px;
+   border-radius: 20px;
+   box-shadow: 5px 10px #888888b1;
+   cursor: pointer;
+}
+
+.image1 {
+   background-image: url('../../images/links1.png');
+
+}
+
+.image2 {
+   background-image: url('../../images/links2.png');
+
+}
+
+.image3 {
+   background-image: url('../../images/links3.png');
+
+}
+
+.helplink-container {
+   margin: 0;
+   padding: 0;
+   background-color: #2c90c6;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.imageContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-h1 {
+   font-family: 'Merriweather', serif;
+   font-size: 24px;
+   color: white;
+}

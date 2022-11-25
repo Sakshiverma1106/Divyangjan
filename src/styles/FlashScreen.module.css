@@ -1,0 +1,31 @@
+.container {
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+   position: absolute;
+   top: 0px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.h2 {
+   font-weight: 600;
+   font-size: 30px;
+   animation: slide 400ms ease-in-out;
+}
+
+@keyframes slide {
+   0% {
+      transform: translateY(-1000px);
+   }
+
+   40% {
+      transform: translateY(0px);
+   }
+
+   100% {
+      transform: translateY(20px);
+   }
+}
